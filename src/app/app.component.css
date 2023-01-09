@@ -1,0 +1,26 @@
+.navbar-brand{
+    color: white;
+    margin-left: 10px;
+    
+}
+
+
+.navbar{
+    background-color:cornflowerblue;
+}
+
+.secondDiv{
+    background-color:rgb(38, 99, 211);
+    min-height: 40px;
+}
+
+
+.topButton{
+    background-color:rgb(224, 226, 229);
+    color: black;
+    margin-left: 14px;
+    margin-top: 6px;
+    border-color: rgb(224, 226, 229);
+}
+
+

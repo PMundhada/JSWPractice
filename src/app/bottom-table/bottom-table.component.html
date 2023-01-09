@@ -1,0 +1,90 @@
+<div class="parent">
+    <div class="mt-4 two">
+        <div class="d-flex heading">
+            <div class="d-flex tittle">
+                Heats Waiting for casting
+            </div>
+            <div style="margin-left:840px">
+                <button class="buttons">Find Heat</button>&nbsp;
+                <button class="buttons">Refresh</button>
+
+            </div>
+        </div>
+
+
+
+        <div class="mat-elevation-z8">
+            <table mat-table [dataSource]="dataSource">
+
+                <!-- Position Column -->
+                <ng-container matColumnDef="id">
+                    <th mat-header-cell *matHeaderCellDef> No. </th>
+                    <td mat-cell *matCellDef="let element"> <input type="radio"></td>
+                </ng-container>
+
+                <!-- Name Column -->
+                <ng-container matColumnDef="ladleNumber">
+                    <th mat-header-cell *matHeaderCellDef> LadleNumber </th>
+                    <td mat-cell *matCellDef="let element"> {{element.ladleNumber}} </td>
+                </ng-container>
+
+                <!-- Weight Column -->
+                <ng-container matColumnDef="heatNumber">
+                    <th mat-header-cell *matHeaderCellDef> Heat Number
+                        <div class="cell">Priyanka</div>
+                    </th>
+                    <td mat-cell *matCellDef="let element"> {{element.heatNumber}} </td>
+                </ng-container>
+
+                <!-- Symbol Column -->
+                <ng-container matColumnDef="aimGrade">
+                    <th mat-header-cell *matHeaderCellDef>Aim Grade</th>
+                    <td mat-cell *matCellDef="let element"> {{element.aimGrade}} </td>
+                </ng-container>
+                <ng-container matColumnDef="rhRoute">
+                    <th mat-header-cell *matHeaderCellDef> RhRoute</th>
+                    <td mat-cell *matCellDef="let element"> {{element.rhRoute}} </td>
+                </ng-container>
+                <ng-container matColumnDef="planSlamWidth">
+                    <th mat-header-cell *matHeaderCellDef> PlainSlamWidth </th>
+                    <td mat-cell *matCellDef="let element"> {{element.planSlamWidth}} </td>
+                </ng-container>
+                <ng-container matColumnDef="plannedStartDate">
+                    <th mat-header-cell *matHeaderCellDef> Planned Start Date </th>
+                    <td mat-cell *matCellDef="let element"> {{element.plannedStartDate}} </td>
+                </ng-container>
+                <ng-container matColumnDef="laddleTemp">
+                    <th mat-header-cell *matHeaderCellDef>Ladle Temp </th>
+                    <td mat-cell *matCellDef="let element"> {{element.laddleTemp}} </td>
+                </ng-container>
+                <ng-container matColumnDef="laddleStreet">
+                    <th mat-header-cell *matHeaderCellDef>Laddle Street</th>
+                    <td mat-cell *matCellDef="let element"> {{element.laddleStreet}} </td>
+                </ng-container>
+                <ng-container matColumnDef="lastUnitDate">
+                    <th mat-header-cell *matHeaderCellDef>Last Unit Date</th>
+                    <td mat-cell *matCellDef="let element"> {{element.lastUnitDate}} </td>
+                </ng-container>
+                <ng-container matColumnDef="lastProcessUnit">
+                    <th mat-header-cell *matHeaderCellDef>Last Process Unit</th>
+                    <td mat-cell *matCellDef="let element"> {{element.lastProcessUnit}} </td>
+                </ng-container>
+                <ng-container matColumnDef="planCasterNumber">
+                    <th mat-header-cell *matHeaderCellDef>Plan Cast Number</th>
+                    <td mat-cell *matCellDef="let element"> {{element.planCasterNumber}} </td>
+                </ng-container>
+
+
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+
+            <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons
+                aria-label="Select page of periodic elements">
+            </mat-paginator>
+        </div>
+
+    </div>
+
+</div>

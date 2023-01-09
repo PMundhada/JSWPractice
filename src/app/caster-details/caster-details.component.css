@@ -1,0 +1,138 @@
+.heading {
+    background-color: rgb(216, 211, 211);
+    /* min-height: 40px; */
+    display: flex
+}
+
+.end {
+    display: flex
+}
+
+.formDiv {
+    display: flex
+}
+
+.one {
+    width: 80%;
+
+}
+
+.two {
+    width: 18%;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.sample {
+    height: 200px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.abnormality {
+    height: 70px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.deviation {
+    height: 250px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+.control-group {
+    display: inline-block;
+}
+
+
+
+.Process-div {
+    min-height: 150px;
+    box-shadow: 0px 0px 0.6px 0.3px;
+}
+
+
+
+
+.tittle {
+
+    background-color: rgba(231, 229, 229, 0.726);
+
+    font-size: 15px;
+
+    /* min-height: 50px; */
+
+    color: rgba(35, 104, 233, 0.959);
+
+    line-height: 30px;
+
+    font-weight: 500;
+
+    padding-left: 5%;
+
+
+
+}
+
+.tittleAbnor {
+
+    background-color: rgba(231, 229, 229, 0.726);
+
+    font-size: 15px;
+
+    /* min-height: 50px; */
+
+    color: rgba(35, 104, 233, 0.959);
+
+
+
+    font-weight: 500;
+
+    padding-left: 5%;
+
+
+
+}
+
+.main-div {
+
+    height: 150px;
+}
+
+.form-Div,
+input {
+
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+}
+
+table tr td {
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+
+.checkbox {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.button {
+    background-color: rgb(38, 99, 211);
+    color: white;
+    margin-left: 1050px;
+    border-color: rgb(38, 99, 211);
+    margin-top: 2px;
+}

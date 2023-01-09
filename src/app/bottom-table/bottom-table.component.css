@@ -1,0 +1,80 @@
+.two {
+    min-height: 200px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* background-color: rgba(231, 229, 229, 0.726); */
+}
+.heading{
+    background-color: rgba(231, 229, 229, 0.726);
+}
+
+.three {
+    min-height: 150px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.tittle {
+    /* background-color: rgba(231, 229, 229, 0.726); */
+    font-size: 15px;
+    color: rgba(35, 104, 233, 0.959);
+    line-height: 30px;
+    font-weight: 500;
+    padding-left: 2%;
+}
+
+.downloadButton{
+    justify-content: flex-end;
+}
+
+
+
+table {
+    width: 98%;
+    margin-left: 12px;
+    margin-top: 6px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+}
+
+
+table tr.mat-row {
+    height: 16px;
+  }
+
+  .mat-table,td, tr, th{
+    /* background-color: red; */
+    border: 0.5px solid rgb(195, 190, 190);
+    
+  }
+
+  td.mat-cell{
+    text-align: center;
+    justify-content:center;
+}
+
+th.mat-header-cell{
+    text-align: center;
+    justify-content:center;
+    background-color:cornflowerblue;
+    color: white;
+    height: 60px;
+}
+
+.cell{
+    border:0.5px solid black;
+    background-color: white;
+    width: 50px;
+    margin-left: 22px
+}
+
+.buttons{
+    background-color:rgb(38, 99, 211);
+    color: white;
+    /* margin-left: 514px; */
+    border-color: rgb(38, 99, 211);
+    /* line-height: 3px;s */
+    margin: 0;
+    line-height: 15px;
+    margin-top: 4px;
+    
+}
+
